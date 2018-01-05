@@ -3,7 +3,7 @@ CFLAGS=-c -Wall -std=c++0x
 LDFLAGS=
 SOURCES=$(wildcard *.c *.cpp)
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=Hello
+EXECUTABLE=hello.out
 
 all: $(SOURCES) $(EXECUTABLE)
 		
